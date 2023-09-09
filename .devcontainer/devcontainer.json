@@ -1,0 +1,17 @@
+{
+	"name": "Mojo",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"runArgs": ["--name=mojo", "--network=host"],
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"modular-mojotools.vscode-mojo"
+			]
+		}
+	},
+
+	"remoteUser": "root"
+}
